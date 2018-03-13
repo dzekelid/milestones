@@ -40,7 +40,7 @@ apis:
   tags: Milestones
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/milestones/master/_listings/github/repos-owner-repo-milestones-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/milestones/master/_listings/github/repos-owner-repo-milestones-post.md
 x-common:
 - type: x-net-library
   url: https://github.com/octokit/octokit.net
