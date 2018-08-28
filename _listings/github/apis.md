@@ -8,94 +8,110 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "64"
 tags: Milestones
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/milestones/master/_listings/github/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Github Get Repos Owner Repo Milestones
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Milestones
+  x-api-slug: reposownerrepomilestones-get
   description: List milestones for a repository.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/milestones
-  tags: Repos, Owner, Repo, Milestones
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/milestones/master/_listings/github/reposownerrepomilestones-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/milestones/master/_listings/github/reposownerrepomilestones-get-openapi.md
-- name: Github Add Repos Owner Repo Milestones
-  x-api-slug: github
+- name: GitHub - Add Repos Owner Repo Milestones
+  x-api-slug: reposownerrepomilestones-post
   description: Create a milestone.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/milestones
-  tags: Repos, Owner, Repo, Milestones
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/milestones/master/_listings/github/reposownerrepomilestones-post-openapi.md
-- name: Github Delete Repos Owner Repo Milestones Number
-  x-api-slug: github
+- name: GitHub - Delete Repos Owner Repo Milestones Number
+  x-api-slug: reposownerrepomilestonesnumber-delete
   description: Delete a milestone.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/milestones/{number}
-  tags: Repos, Owner, Repo, Milestones, Number
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/milestones/master/_listings/github/reposownerrepomilestonesnumber-delete-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/milestones/master/_listings/github/reposownerrepomilestonesnumber-delete-openapi.md
-- name: Github Get Repos Owner Repo Milestones Number
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Milestones Number
+  x-api-slug: reposownerrepomilestonesnumber-get
   description: Get a single milestone.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/milestones/{number}
-  tags: Repos, Owner, Repo, Milestones, Number
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/milestones/master/_listings/github/reposownerrepomilestonesnumber-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/milestones/master/_listings/github/reposownerrepomilestonesnumber-get-openapi.md
-- name: Github Patch Repos Owner Repo Milestones Number
-  x-api-slug: github
+- name: GitHub - Patch Repos Owner Repo Milestones Number
+  x-api-slug: reposownerrepomilestonesnumber-patch
   description: Update a milestone.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/milestones/{number}
-  tags: Repos, Owner, Repo, Milestones, Number
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/milestones/master/_listings/github/reposownerrepomilestonesnumber-patch-openapi.md
-- name: Github Get Repos Owner Repo Milestones Number Labels
-  x-api-slug: github
+- name: GitHub - Get Repos Owner Repo Milestones Number Labels
+  x-api-slug: reposownerrepomilestonesnumberlabels-get
   description: Get labels for every issue in a milestone.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
   humanURL: https://github.com
-  baseURL: https://api.github.com////repos/{owner}/{repo}/milestones/{number}/labels
-  tags: Repos, Owner, Repo, Milestones, Number, Labels
+  baseURL: https://api.github.com//
+  tags: Social, Coding, Programming, Social, Jobs, Hacker Storytelling, Code, My API
+    Stack, Management, Imports, Issues, Issue Management, Change Log Example, Stack
+    Network, Stack, SaaS, Technology, Developers, API Provider, API Service Provider,
+    Profiles, General Data, Relative Data, Pedestal, Historical Data API, Relative
+    StreamRank, Streams
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/milestones/master/_listings/github/reposownerrepomilestonesnumberlabels-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/milestones/master/_listings/github/reposownerrepomilestonesnumberlabels-get-openapi.md
-- name: Github
-  x-api-slug: github
-  description: GitHub brings together the worlds largest community of developers to
-    discover, share, and build better software. From open source projects to private
-    team repositories, were your all-in-one platform for collaborative development.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/github-logo.png
-  humanURL: https://github.com
-  baseURL: https://api.github.com//
-  tags: Milestones
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/milestones/master/_listings/github/openapi.md
 x-common:
 - type: x--net-library
   url: https://github.com/octokit/octokit.net
+- type: x-api-gallery
+  url: http://giphy.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://github.stack.network
 - type: x-base
   url: https://api.github.com
 - type: x-blog

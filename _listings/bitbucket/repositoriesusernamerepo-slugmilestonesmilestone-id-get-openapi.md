@@ -73,6 +73,21 @@ paths:
       - Slug
       - Milestones
       - Milestone
+    parameters:
+      summary: Parameters Repositories Username Repo Slug Milestones Milestone
+      description: Parameters repositories username repo slug milestones milestone
+      operationId: parametersRepositoriesUsernameRepoSlugMilestonesMilestone
+      x-api-path-slug: repositoriesusernamerepo-slugmilestonesmilestone-id-parameters
+      responses:
+        200:
+          description: OK
+      tags:
+      - Repositories
+      - Username
+      - Repo
+      - Slug
+      - Milestones
+      - Milestone
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
